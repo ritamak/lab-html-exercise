@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 5vw;
+ margin-right: 15px;
+background-position: right;
+background-color: pink;
+
+}
+
+.primeiro {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 45px;
+	padding: 4px;
+	outline-color: white;
+}
+
+#myInput {
+background-image: url(magnifying-glass.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background-color: rgba(0,0,0,.05);
+
+}
+
+.barra {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 800px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+ #srchBtn {
+ 	background-color: #fb3e44;
+ 	border: 2px solid #fb3e44;
+ 	color: white;
+ 	border: 2px solid #fb3e44;
+ 	width: 70px;
+ 	height: 40px;
+ 	padding: 10px;
+ 	text-align: center;
+ 	align-content: right;
+ 	text-decoration: none;
+ 	font-style: 10px;
+ }
+
+
+#join {
+  background-color: white;
+  border: 2px solid grey;
+  color: black;
+  width: 40px;
+  height: 12px;
+  padding: 5px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+
+}
+
+
+#logIn {
+  background-color: white;
+  color: black;
+  width: 40px;
+  height: 16px;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#first {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  width: 100%;
+  border: 15px rgba(232,217,217,.3);
+  background-color: rgba(232,217,217,.3);
+  padding: 60px;
+}
+
+#first > h2 {
+font-weight: bold;
+font-size: 60px;
+}
+
+#first > p {
+	width: 50vw;
+}
+
+#seePlans {
+  background-color: #FB3B49;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 40px;
+  font-weight: bold;
+}
+
+#joinFF {
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+   padding: 15px 40px ;
+   font-weight: bold;
+
+}
+
+#buttons {
+	display: flex;
+	flex-direction: row;
+	width: 35vw;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#second {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  width: 55vw;
+  border: 15px white;
+  background-color: white;
+  padding: 60px;
+}
+
+
+#second > h2 {
+	background-color: rgba(255,204,53,.4);
+	font-weight: bold;
+}
+
+#second > p {
+	text-align: center;
+}
+
+
+.triangle {
+	width:15vw;
+	margin-right: 1rem;
+	background-position: right;	
+}
+
+#third {
+	display: flex;
+	flex-direction: row;
+  width: 85%;
+  border: 10px white;
+  background-color: white;
+  padding: 60px;
+}
+
+#third > div > h2 {
+	color: #ED1C24;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bottomColumns {
+	display: flex;
+	flex-direction: column;
+}
+
+#orgBtn {
+	padding: 20px 150px;
+  background-color: black;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  font-size: 20px;
+  font-weight: bold;
+    text-decoration: none;
+
+}
+
+.finalBtn {
+	display: flex;
+	justify-content: center;
+    margin-bottom: 70px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+}
+
+.bottomImage {
+	height: 50px;
+	width: 50px;
+}
